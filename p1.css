@@ -1,0 +1,187 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Audiowide", sans-serif;
+    
+  }
+.fa-solid{
+  color: #000000;
+}
+.topbar {
+    overflow: hidden;
+    z-index: 1;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.1);
+  
+  }
+  
+.title{
+  
+  color: rgb(0, 0, 0);
+  font-family: "Audiowide", sans-serif;
+  float: left;
+  text-align: center;
+  padding: 22.3px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  float: right;
+}
+
+.topbar a {
+  float: right;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.topbar a {
+  color: #000000;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn span {
+  transition: all 0.3s;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  transform: scale(0.1, 1);
+}
+.btn:hover span {
+  letter-spacing: 2px;
+}
+.btn:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+
+}
+.btn:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+
+.name{
+  position: absolute;
+  top:100px;
+  left: 50px;
+  font-size: 80px;
+  font-family: "Audiowide", sans-serif;
+}
+.name1{
+  position: absolute;
+  top:200px;
+  left: 50px;
+  font-size: 80px;
+  font-family: "Audiowide", sans-serif;
+}
+.name2{
+  position: absolute;
+  top:300px;
+  left: 50px;
+  font-size: 80px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.button {
+  display: inline-flex;
+  height: 70px;
+  width: 180px;
+  top: 320px;
+  left:700px;
+  position: absolute;
+  border: 2px solid #000000;
+  margin: 20px 20px 20px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: "Audiowide", sans-serif;
+
+}
+
+#button-7 {
+  
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+#button-7 a {
+  position: relative;
+  left: 0;
+  transition: all .35s ease-Out;
+}
+
+#dub-arrow {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .35s ease-Out;
+  bottom: 0;
+}
+
+#button-7 img {
+  width: 20px;
+  height: auto;
+}
+
+#button-7:hover #dub-arrow {
+  left: 0;
+}
+
+#button-7:hover a {
+  left: 150px;
+}
+
