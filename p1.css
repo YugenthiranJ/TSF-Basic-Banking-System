@@ -1,4 +1,4 @@
-body {
+    body {
     height: 100%;
     margin: 0;
     font-family: "Audiowide", sans-serif;
@@ -58,9 +58,6 @@ div[class*=box] {
   transition: all 0.3s;
   position: relative;
 }
-.btn span {
-  transition: all 0.3s;
-}
 
 
 .name{
@@ -95,8 +92,6 @@ div[class*=box] {
   border: 2px solid black;
   margin: 20px 20px 20px 20px;
   color: black;
-  text-transform: uppercase;
-  text-decoration: none;
   font-size: 16px;
   letter-spacing: 1.5px;
   align-items: center;
@@ -106,12 +101,4 @@ div[class*=box] {
 
 }
 
-
-
-
-
-
-#button-7:hover a {
-  left: 150px;
-}
 
